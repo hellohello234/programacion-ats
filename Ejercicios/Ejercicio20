@@ -1,0 +1,21 @@
+#This configuration file was written by: org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwConfigFileParser
+#Sat Dec 05 12:40:44 EST 2020
+eclipse.product=org.eclipse.oomph.setup.installer.product
+oomph.setup.product.filter=(?!org\\.eclipse\\.products\\.org\\.eclipse\\.platform\\.ide).*
+eclipse.p2.max.threads=10
+osgi.bundles=reference\:file\:org.eclipse.equinox.simpleconfigurator_1.3.600.v20200721-1308.jar@1\:start
+oomph.setup.product.catalog.filter=org\\.eclipse\\.products
+eclipse.p2.profile=DefaultProfile
+osgi.framework=file\:plugins/org.eclipse.osgi_3.16.100.v20201030-1916.jar
+osgi.framework.extensions=reference\:file\:org.eclipse.osgi.compatibility.state_1.2.200.v20200915-2015.jar
+osgi.splashPath=platform\:/base/plugins/org.eclipse.oomph.setup.installer
+oomph.setup.jre.choice=true
+oomph.setup.product.version.filter=.*\\.2020-12
+org.eclipse.equinox.simpleconfigurator.configUrl=file\:org.eclipse.equinox.simpleconfigurator/bundles.info
+osgi.bundles.defaultStartLevel=4
+p2.userAgent=eclipse/oomph/installer
+eclipse.application=org.eclipse.oomph.setup.installer.application
+org.eclipse.update.reconcile=false
+osgi.requiredJavaVersion=11.0
+eclipse.p2.data.area=@config.dir/../p2
+oomph.p2.repository.retry=2
